@@ -12,20 +12,62 @@ export default function Home() {
             <button type="submit" onClick={() => setBtn(btn - 1)} className="w-20 h-8 bg-lime-600 text-white rounded-md items-center justify-items-center text-center">
               Voltar
             </button>
-            <div className="w-8 h-8 bg-lime-950 text-white rounded-full items-center justify-items-center text-center">
-              <label>
-                1
-              </label>
-            </div>
-            <div className="w-8 h-8 bg-lime-950 text-white rounded-full items-center justify-items-center text-center">
-              <label>
-                2
-              </label>
-            </div>
-            <div className="w-8 h-8 bg-lime-950 text-white rounded-full items-center justify-items-center text-center">
-              <label>
-                3
-              </label>
+            <div>
+              {btn == 1 ? (
+                <div className="flex space-x-2">
+                  <div className="w-8 h-8 bg-lime-500 text-white rounded-full items-center justify-items-center text-center">
+                  <label>
+                    1
+                  </label>
+                  </div>
+                  <div className="w-8 h-8 bg-lime-950 text-white rounded-full items-center justify-items-center text-center">
+                    <label>
+                      2
+                    </label>
+                  </div>
+                  <div className="w-8 h-8 bg-lime-950 text-white rounded-full items-center justify-items-center text-center">
+                    <label>
+                      3
+                    </label>
+                  </div>
+                </div>
+              ) : btn == 2 ? (
+                <div className="flex space-x-2">
+                  <div className="w-8 h-8 bg-lime-950 text-white rounded-full items-center justify-items-center text-center">
+                  <label>
+                    1
+                  </label>
+                  </div>
+                  <div className="w-8 h-8 bg-lime-500 text-white rounded-full items-center justify-items-center text-center">
+                    <label>
+                      2
+                    </label>
+                  </div>
+                  <div className="w-8 h-8 bg-lime-950 text-white rounded-full items-center justify-items-center text-center">
+                    <label>
+                      3
+                    </label>
+                  </div>
+                </div>
+              ):
+                <div className="flex space-x-2">
+                  <div className="w-8 h-8 bg-lime-950 text-white rounded-full items-center justify-items-center text-center">
+                  <label>
+                    1
+                  </label>
+                  </div>
+                  <div className="w-8 h-8 bg-lime-950 text-white rounded-full items-center justify-items-center text-center">
+                    <label>
+                      2
+                    </label>
+                  </div>
+                  <div className="w-8 h-8 bg-lime-500 text-white rounded-full items-center justify-items-center text-center">
+                    <label>
+                      3
+                    </label>
+                  </div>
+              </div>
+              }
             </div>
             <button type="submit" onClick={() => setBtn(btn + 1)} className="w-20 h-8 bg-lime-700 text-white rounded-md items-center justify-items-center text-center">
               Próximo
