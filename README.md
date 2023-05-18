@@ -7,8 +7,6 @@ O projeto visa desenvolver um sistema de reserva de mesa em uma rede de restaura
 - [EatFruit](#eatFruit)
   - [Tecnologias](#tecnologias)
   - [Inicializando](#inicializando)
-    - [Server](#server)
-    - [Cliente](#cliente)
 
 ## Tecnologias
 
