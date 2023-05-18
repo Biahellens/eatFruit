@@ -1,9 +1,11 @@
 'use client'
-import React, { useState } from "react"
+import React, { useState } from 'react'
+import Image from 'next/image'
 import { StepOne, StepTwo, StepThree } from './pages'
 
 export default function Home() {
   const [btn, setBtn] = useState(1)
+
   return (
     <div>
       <div className="grid items-center justify-items-center mt-12">
