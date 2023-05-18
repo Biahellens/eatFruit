@@ -2,7 +2,7 @@
 
 # EatFruit
 
-O projeto visa desenvolver um sistema de reserva de mesa em uma rede de restaurantes
+O projeto visa desenvolver um sistema de reserva de mesa em uma rede de restaurantes. O projeto consiste apenas com o Front-end de tal até o momento.
 
 - [EatFruit](#eatFruit)
   - [Tecnologias](#tecnologias)
