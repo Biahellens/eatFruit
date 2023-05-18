@@ -1,4 +1,4 @@
-![EatFruit](https://github.com/Biahellens/eatFruit/public/assets/icon-eat-fruit.svg)
+![EatFruit](https://github.com/Biahellens/eatFruit/blob/main/public/assets/icon-eat-fruit.svg)
 
 # EatFruit
 
